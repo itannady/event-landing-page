@@ -14,52 +14,118 @@
     />
     <!-- Stylesheet CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Hello, world!</title>
+    <title>Moqups</title>
   </head>
   <body>
 
+    <!--Icon stylesheet-->
+    <script
+      src="https://kit.fontawesome.com/fe46daf58d.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container">
+        <a style="font-weight:bold; font-size: 28px;" class="navbar-brand" href="#">Moqups</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a style="font-weight:bold;" class="nav-link" href="#">Speakers</a>
+            <a style="font-weight:bold;" class="nav-link" href="#">Tickets</a>
+            <a style="font-weight:bold;" class="nav-link disabled">Venue</a>
+          </div>
         </div>
       </div>
     </nav>
     <!-- Navbar End -->
     
-    <h1>Hello, world!</h1>
+   <!-- Jumbotron -->
+   <div class="jumbotron text-center p-5" style="height: 400px; background-color:#e9ecef;">
+    <h1 style="font-weight:bold; color: #343a40;">Clear Statement about <br>Your Event</h1><br>
+    <p style="color:#6c757d">Secondary header providing additional information</p>
+    <button style="font-size: 14px; font-weight: bold; width: 200px; height: 50px;" type="button" class="btn btn-dark btn-lg">GET THE TICKET</button>
+  </div>
+  
+  <!-- Jumbotron Ends -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Speakers Section -->
+  <div class="container-fluid text-center p-5 border">
+    <div class="row">
+      <h1 style="font-weight: bold;">The Speakers</h1>
+      <p style="font-weight: bold;">Write a few lines about the event speakers to <br>highlight their expertise in the field.</p>
+    </div>
+  
+
+  <div class="container mt-5 ">
+    <div class="row text-start">
+      <div class="col" style="width: 200px;">
+        <img src="img/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" style ="width: 250px;" class="rounded" >
+        <h3 class="pt-3" style="font-weight: bold; color:#343a40">Ruby Jennings</h3>
+        <p style="color:#6c757d">Product Manager at Moqups. Runner, parent and coffee lover.</p>
+        <p style="color:#6c757d">@username</p>
+      </div>
+      <div class="col" style="width: 200px;">
+        <img src="img/pexels-justin-shaifer-1222271.jpg" style ="width: 250px;" class="rounded" >
+        <h3 class="pt-3" style="font-weight: bold; color:#343a40">Leon Hanson</h3>
+        <p style="color:#6c757d">Sales Manager at Moqups. Runner, parent and coffee lover.</p>
+        <p style="color:#6c757d">@username</p>
+      </div>
+      <div class="col" style="width: 200px;">
+        <img src="img/edward-cisneros-_H6wpor9mjs-unsplash.jpg" style ="width: 250px;" class="rounded" >
+        <h3 class="pt-3" style="font-weight: bold; color:#343a40">Meghan Stone</h3>
+        <p style="color:#6c757d">Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
+        <p style="color:#6c757d">@username</p>
+      </div>
+      <div class="col" style="width: 200px;">
+        <img src="img/naim-ahmed-8BcVHmAHtlw-unsplash.jpg" style ="width: 250px;" class="rounded" >
+        <h3 class="pt-3" style="font-weight: bold; color:#343a40">Willie Perkins</h3>
+        <p style="color:#6c757d">UX Engineer at Moqups. runner, parent and coffee lover.</p>
+        <p style="color:#6c757d">@username</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Speakers Section End -->
+
+  <!-- Ticket -->
+  <div class="container-fluid text-center p-5 bg-light" style="height: 300px;">
+    <h1 style="font-weight:bold; color: #343a40;">Get Your Ticket Today </h1><br>
+    <p style="color:#6c757d">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> sessions, <b>5</b> keynotes.</p>
+    <button style="font-size: 14px; font-weight: bold; width: 200px; height: 50px;" type="button" class="btn btn-dark btn-lg">BUY TICKET $149  </button>
+  </div>
+  <!-- Ticket Ends -->
+
+  <!-- Venue -->
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col" style="width:400px;">
+        <h2 style="font-weight: bold">The Venue</h2>
+        <p class="pt-3" style="width: 400px; font-size: 20px">Our event will be held at the <b>Main Office headquarters at Provost & East Building 145 City Road, London.</b></p>
+        <iframe class="pt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5285.670347055801!2d-122.46853450879223!3d37.771522163670994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1643781704109!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col" >
+        <img style="height: 500px; width: 500px"src="https://i.picsum.photos/id/1029/4887/2759.jpg?hmac=uMSExsgG8_PWwP9he9Y0LQ4bFDLlij7voa9lU9KMXDE">
+      </div>
+    </div>
+  </div>
+
+  <!-- Venue Ends -->
+  
+  <!-- Footer -->
+  <div class="container-fluid border p-3 d-flex justify-content-between">
+    <div class="p">
+    <i style="font-size: 32px;"class="fab fa-twitter p-1" ></i>
+    <i style="font-size: 32px;"class="fab fa-instagram p-1"></i>
+    <i style="font-size: 32px;"class="fab fa-facebook-square p-1"></i>
+  </div>
+    <p class="d-flex justify-content end" style="color: #6c757d;" class="text-end"><span>©</span>2019 Moqups</p>
+  </div>
+  <!-- Footer Ends -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
